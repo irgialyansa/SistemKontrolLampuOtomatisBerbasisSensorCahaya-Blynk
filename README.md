@@ -1,4 +1,4 @@
-"""# Proyek Akhir: Sistem Kontrol Lampu Otomatis Berbasis Sensor Cahaya & Blynk
+# Proyek Akhir: Sistem Kontrol Lampu Otomatis Berbasis Sensor Cahaya & Blynk
 
 Sistem manajemen pencahayaan pintar (*Smart Lighting*) berbasis **Internet of Things (IoT)** menggunakan mikrokontroler **ESP32**, **Sensor LDR (Lux Converter)**, dan platform **Blynk Cloud** untuk efisiensi energi listrik rumah tangga.
 
@@ -9,7 +9,7 @@ Sistem manajemen pencahayaan pintar (*Smart Lighting*) berbasis **Internet of Th
 | Informasi | Detail |
 | :--- | :--- |
 | **Mata Kuliah** | Sistem Mikrokontroler |
-| **Kelas** | Contoh TIF RM 22 CID – Departemen Informatika |
+| **Kelas** | TIF K 23 B – Departemen Informatika |
 | **Institusi** | Universitas Teknologi Bandung |
 | **Dosen Pengampu**| Muchamad Rusdan, S.T., M.T. |
 | **Nama** | Irgi Alyansa Perdana |
@@ -58,15 +58,6 @@ Sistem komunikasi dirancang secara *end-to-end* menggunakan kombinasi protokol b
 
 ---
 
-## 💻 Cara Instalasi & Penggunaan (Wokwi)
-
-1. **Salin Berkas Proyek:** Masukkan berkas `sketch.ino`, `diagram.json`, dan `libraries.txt` ke dalam workspace simulator Wokwi Anda.
-2. **Konfigurasi Blynk Console:**
-   * Buat Datastream Baru pada Pin Virtual `V0` (Tipe: Double, Min: 0, Max: 10000, Unit: Lux).
-   * Buat Datastream Tombol/Saklar pada `V1` (Mode Auto/Manual) dan `V2` (Kendali Lampu).
-   * Buat Datastream Teks pada `V5` (Status Siang/Malam).
-3. **Kredensial Token:** Sesuaikan baris `#define BLYNK_TEMPLATE_ID`, `BLYNK_TEMPLATE_NAME`, dan `BLYNK_AUTH_TOKEN` pada bagian teratas `sketch.ino` dengan kredensial dari *device* Blynk IoT Anda.
-4. **Jalankan Simulasi:** Klik tombol *Play* pada Wokwi, geser *slider* interaktif LDR, dan amati sinkronisasi data pada *Dashboard* Blynk Android Anda!
 """
 
 with open("README-v2.md", "w", encoding="utf-8") as f:
