@@ -57,4 +57,5 @@ Sistem komunikasi dirancang secara *end-to-end* menggunakan kombinasi protokol b
 * **Aplikasi Android $\leftrightarrow$ Blynk Cloud:** Menggunakan **WebSockets (WSS)** untuk pengiriman instruksi tombol secara instan (*real-time*) dan **HTTPS** untuk otentikasi akun serta penarikan data historis awal.
 
 ---
+<img width="1910" height="817" alt="Screenshot 2026-06-27 114304" src="https://github.com/user-attachments/assets/7559be1b-1455-4ea1-84ef-b29d3749faff" />
 
