@@ -58,9 +58,3 @@ Sistem komunikasi dirancang secara *end-to-end* menggunakan kombinasi protokol b
 
 ---
 
-"""
-
-with open("README-v2.md", "w", encoding="utf-8") as f:
-    f.write(readme_content_v2)
-
-print("File README-v2.md berhasil dibuat dengan judul yang diperbarui.")
