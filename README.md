@@ -1,4 +1,4 @@
-readme_content_v2 = """# Proyek Akhir: Sistem Kontrol Lampu Otomatis Berbasis Sensor Cahaya & Blynk
+"""# Proyek Akhir: Sistem Kontrol Lampu Otomatis Berbasis Sensor Cahaya & Blynk
 
 Sistem manajemen pencahayaan pintar (*Smart Lighting*) berbasis **Internet of Things (IoT)** menggunakan mikrokontroler **ESP32**, **Sensor LDR (Lux Converter)**, dan platform **Blynk Cloud** untuk efisiensi energi listrik rumah tangga.
 
